@@ -83,6 +83,7 @@ article p {
     line-height: 1.5;
     padding-right: 10vw;
     padding-left: 10vw;
+    text-align: center;
 }
 
 section p {
@@ -104,3 +105,41 @@ footer {
     width: 100%;
     
 }
+
+/* Media Queries for Tablet and Mobile Devices */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 10px; /* Adjusted padding for smaller screens */
+    }
+
+    nav ul li {
+        display: block; /* Change to block display for easier tapping on smaller screens */
+        margin-right: 0;
+        margin-bottom: 10px; /* Add margin between list items */
+    }
+
+    article h2 {
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+
+    article h3 {
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+
+    article img {
+        width: 90%; /* Adjusted width for smaller screens */
+        padding-left: 5vw;
+    }
+
+    article p {
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+
+    footer {
+        padding: 10px; /* Adjusted padding for smaller screens */
+    }
+}
+
