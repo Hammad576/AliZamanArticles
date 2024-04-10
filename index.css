@@ -67,7 +67,7 @@ article h3 {
 }
 #readMore{
     padding-right: 10vw;
-    padding-left: 10vw;
+    padding-left: 12vw;
 }
 
 article p {
@@ -75,6 +75,13 @@ article p {
     line-height: 1.5;
     padding-right: 10vw;
     padding-left: 10vw;
+}
+
+section p {
+    color: #333;
+    line-height: 1.5;
+    padding-right: 10vw;
+    padding-left: 12vw;
 }
 
 footer {
