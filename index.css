@@ -10,7 +10,7 @@ body {
 .a2a_kit.a2a_center {
     display: flex;
     justify-content: center;
-    margin: 20px 0; /* Optional: Adds some margin around the share buttons */
+    margin: 20px 0; 
   }
   
 header {
@@ -112,10 +112,10 @@ footer {
     
 }
 
-/* Media Queries for Tablet and Mobile Devices */
+ 
 @media only screen and (max-width: 768px) {
     header {
-        padding: 10px; /* Adjusted padding for smaller screens */
+        padding: 10px;  
     }
 
     nav ul li {
