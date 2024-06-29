@@ -7,6 +7,12 @@ body {
     background-color: #f0f0f0;
 }
 
+.a2a_kit.a2a_center {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; /* Optional: Adds some margin around the share buttons */
+  }
+  
 header {
     background-color: #333;
     color: #fff;
